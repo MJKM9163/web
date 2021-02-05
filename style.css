@@ -1,0 +1,74 @@
+h1 {
+  color:red;
+  font-size:350%;
+  text-align:center;
+  border-bottom:5px solid black;
+  margin-bottom:0px;
+  padding:20px;
+}
+#boxmodel {
+  border:3px solid green;
+  padding:100px;
+  margin:10px;
+  display:block;
+  width:200px;
+}
+#grid {
+  display: grid;
+  grid-template-columns:150px 1fr;
+}
+#firstol {
+  font-size:150%;
+  border-right:5px solid black;
+  margin:0px;
+  width:75px;
+  padding:20px 20px 20px 40px;
+}        /*위  오른  아래  왼 */
+body {
+  margin:0px;
+}
+@media(max-width:600px){
+  h1{
+    font-size:200%;
+  }
+  #firstol{
+    font-size:110%;
+    border-right:none;
+  }
+  #grid{
+    display: block;
+  }
+}
+#back{
+  background-color:red;
+  margin:;
+  overflow:;
+  text-align:center;
+}
+#box1{
+  width:400px;
+  height:400px;
+  background-color:yellow;
+  position:relative;
+  text-align:center;
+}
+#box2{
+  width:100px;
+  height:100px;
+  background-color:green;
+  position:fixed;
+  top:10px;
+  right:20px;
+  text-align:center;
+  line-height:5.5;
+}
+.box3{
+  width:100px;
+  height:100px;
+  background-color:blue;
+  position:absolute;
+  right:50px;
+  text-align:center;
+  line-height:55px;
+  opacity:0.7;
+}
