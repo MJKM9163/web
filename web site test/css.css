@@ -1,0 +1,68 @@
+
+#title { /*MJKM 부분*/
+  text-align:center;
+  font-size:70px;
+
+}
+
+#loginbox { /*로그인 창*/
+  height: 25px;
+  width: 100%;
+  max-width: 350px;
+  min-width: 350px;
+  /*padding-left: 50px;
+  padding-right: 50px;*/
+
+  background-color: powderblue;
+  border: 0px;
+}
+
+#loginbox:hover { /*로그인 창*/
+  opacity:0.8;
+}
+
+.buttoncenter {
+  text-align: center;
+}
+
+body { /*배경색*/
+  background:#f5f6f7;
+}
+
+
+a:hover{ /*링크에 올렸을 때 색 변화*/
+  color:powderblue;
+}
+
+a { /*링크*/
+  text-decoration:none;
+  color:black;
+  text-decoration-color: red;
+}
+
+h2 {
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+#lob,#psb { /*아이디,비밀번호 창*/
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+  padding:3px 0px 3px 0px;
+  width: 100%;
+  max-width: 350px;
+  min-width: 350px;
+
+}
+
+
+
+@media(max-width:450px) {
+  #title{
+    font-size: 50px;
+  }
+  #lob,#psb,#loginbox{
+    max-width: 250px;
+    min-width: 250px;
+  }
+}
